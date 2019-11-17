@@ -1,8 +1,11 @@
 ﻿using MongoDB.Bson;
 using MongoDB.Driver;
+using MongoDB.Driver.Linq;
 using ServiceStack;
 using System;
 using System.Collections.Generic;
+using System.Linq;
+using System.Linq.Expressions;
 using System.Text;
 using System.Threading.Tasks;
 
@@ -29,6 +32,25 @@ namespace MongoDbTest.Services.MongoRepository
             var data = await DbSet.FindAsync(Builders<TEntity>.Filter.Eq(" _id ", id));
             return data.FirstOrDefault();
         }
+
+
+        public virtual async Task<TEntity> Get(Expression<Func<TEntity, bool>> predicate)
+        {
+            var data = await DbSet.AsQueryable<TEntity>().FirstOrDefaultAsync(predicate);
+            return data;
+        }
+
+
+        public IEnumerable<TEntity> SearchFor(Expression<Func<TEntity, bool>> predicate) => DbSet
+                .AsQueryable<TEntity>()
+                    .Where(predicate.Compile())
+                        .ToList();
+
+        public IQueryable<TEntity> SearchForQueryable(Expression<Func<TEntity, bool>> predicate) => DbSet
+              .AsQueryable<TEntity>()
+              .Where(predicate.Compile()).AsQueryable();
+
+
 
         public virtual async Task<IEnumerable<TEntity>> GetAll()
         {

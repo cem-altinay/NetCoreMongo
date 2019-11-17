@@ -7884,11 +7884,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\NetCore\\GitHub\\Mongo\\MongoDbTest.Services\\MongoDbTest.Services.csproj",
+      "projectUniqueName": "D:\\NetCore\\GitHub\\Mongo\\NetCoreMongo\\NetCoreMongo\\MongoDbTest.Services\\MongoDbTest.Services.csproj",
       "projectName": "MongoDbTest.Services",
-      "projectPath": "D:\\NetCore\\GitHub\\Mongo\\MongoDbTest.Services\\MongoDbTest.Services.csproj",
+      "projectPath": "D:\\NetCore\\GitHub\\Mongo\\NetCoreMongo\\NetCoreMongo\\MongoDbTest.Services\\MongoDbTest.Services.csproj",
       "packagesPath": "C:\\Users\\Cem\\.nuget\\packages\\",
-      "outputPath": "D:\\NetCore\\GitHub\\Mongo\\MongoDbTest.Services\\obj\\",
+      "outputPath": "D:\\NetCore\\GitHub\\Mongo\\NetCoreMongo\\NetCoreMongo\\MongoDbTest.Services\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
