@@ -1,0 +1,8 @@
+D:\NetCore\GitHub\Mongo\MongoDbTest.Services\bin\Debug\netcoreapp3.0\MongoDbTest.Services.deps.json
+D:\NetCore\GitHub\Mongo\MongoDbTest.Services\bin\Debug\netcoreapp3.0\MongoDbTest.Services.dll
+D:\NetCore\GitHub\Mongo\MongoDbTest.Services\obj\Debug\netcoreapp3.0\MongoDbTest.Services.csprojAssemblyReference.cache
+D:\NetCore\GitHub\Mongo\MongoDbTest.Services\obj\Debug\netcoreapp3.0\MongoDbTest.Services.AssemblyInfoInputs.cache
+D:\NetCore\GitHub\Mongo\MongoDbTest.Services\obj\Debug\netcoreapp3.0\MongoDbTest.Services.AssemblyInfo.cs
+D:\NetCore\GitHub\Mongo\MongoDbTest.Services\bin\Debug\netcoreapp3.0\MongoDbTest.Services.pdb
+D:\NetCore\GitHub\Mongo\MongoDbTest.Services\obj\Debug\netcoreapp3.0\MongoDbTest.Services.dll
+D:\NetCore\GitHub\Mongo\MongoDbTest.Services\obj\Debug\netcoreapp3.0\MongoDbTest.Services.pdb
